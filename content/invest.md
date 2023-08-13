@@ -3,10 +3,10 @@
 
 
 {{< rawhtml >}} 
-<span id="logt">Please enter Investor Code below to see video:</span>
-<input id="invest" type="text" placeholder="Investor Code" >
+<!-- <span id="logt">Please enter Investor Code below to see video:</span>
+<input id="invest" type="text" placeholder="Investor Code" > -->
 
-<div id="invid" style="margin: 0 auto; display:none">
+<div id="invid" style="margin: 0 auto;">
 
 
 <video
@@ -88,10 +88,10 @@ text-decoration: underline;
 
 <script>
 {
-console.log('run that ')
-let invest = document.getElementById('invest')
-let invid = document.getElementById('invid')
-let logt = document.getElementById('logt')
+console.log('updated')
+// let invest = document.getElementById('invest')
+// let invid = document.getElementById('invid')
+// let logt = document.getElementById('logt')
 
 
 function dumbLogin () {
@@ -106,8 +106,8 @@ function dumbLogin () {
     
 } 
 
-invest.onkeyup = dumbLogin
-dumbLogin()
+// invest.onkeyup = dumbLogin
+// dumbLogin()
 
 }
 </script> 
